@@ -1,0 +1,148 @@
+body {
+	margin: 0;
+	padding: 0;
+	/* font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
+		"Apple Color Emoji", "Segoe UI Emoji"; */
+	overflow-x: hidden;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.main {
+	width: 100%;
+	/* border: 2px solid green; */
+}
+.top-div {
+	width: 85%;
+	margin-left: 10%;
+}
+.width-60 {
+	width: 60%;
+}
+.width-40 {
+	width: 39%;
+}
+.border {
+	border: 1px solid red;
+}
+.margin {
+	margin: auto;
+}
+.justify-bet {
+	justify-content: space-evenly;
+}
+.text-center {
+	text-align: center;
+}
+.text-justify {
+	text-align: center;
+}
+.align-item {
+	align-items: flex-start;
+}
+.flex {
+	display: flex;
+	margin-left: 20px;
+}
+.grey {
+	color: #5d5e5c;
+}
+.wt-600 {
+	font-weight: 600;
+	font-size: 16px;
+}
+.wt-400 {
+	font-weight: 400;
+	font-size: 14;
+}
+.p {
+	font-size: 12px;
+}
+.email {
+	width: 45%;
+	padding: 15px;
+	background: #f7f8f7;
+}
+.button {
+	padding: 15px;
+	width: 25%;
+	background: #000;
+	color: white;
+}
+.float-r {
+	float: right;
+}
+.column {
+	flex-direction: column;
+}
+.black {
+	color: black;
+}
+.mt-10 {
+	margin-top: 0px;
+	margin: auto;
+}
+.fs-16 {
+	font-size: 16px;
+}
+.middlediv {
+	display: flex;
+	flex-wrap: wrap;
+	width: 85%;
+	margin-left: 10%;
+	/* border: 2px solid red; */
+}
+.middlediv > div {
+	width: 20%;
+	text-align: justify;
+	margin: 10px 0 10px 0;
+}
+.border-top {
+	border-top: 1px solid rgb(199, 198, 198);
+}
+.footer-p {
+	font-size: 13px;
+	font-weight: 70;
+	line-height: 1.9;
+	color: #8e8f8e;
+}
+.margin-t {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.flex-70 {
+	width: 90%;
+}
+.flex-30 {
+	width: 25%;
+}
+.contact-i {
+	height: 33px;
+	width: 33px;
+	border-radius: 50%;
+	border: 2px solid black;
+	margin-right: 10px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 300;
+	font-size: 18px;
+}
+.p-color {
+	color: #8e8f8e;
+}
+.flex-flow {
+	flex-flow: row-reverse;
+	margin-right: -70px;
+}
+.border-none {
+	border: none;
+	outline: none;
+}
+
+.ml-10 {
+	margin-left: 10%;
+}
+.mt-0 {
+	margin-top: -15px;
+	margin-bottom: -15px;
+}
