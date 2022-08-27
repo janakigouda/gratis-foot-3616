@@ -1,13 +1,14 @@
 import { createContext, useState } from "react";
 
 
-export const Tempcontext = createContext()
-export const Tempcontextprovider = ({ children }) => {
+export const AuthContext = createContext()
+export const AuthContextprovider = ({ children }) => {
     const [isAuth, setisAuth] = useState(false)
     function toggleAuth() { 
-        setisAuth((p) => {
-            return !p
-        })
+        setisAuth(false)
+        // setisAuth((p) => {
+        //     return !p
+        // })
     }
-    return <Tempcontext.Provider value ={{isAuth,toggleAuth}}>{children}</Tempcontext.Provider>
+    return <AuthContext.Provider value ={{isAuth,toggleAuth}}>{children}</AuthContext.Provider>
 }

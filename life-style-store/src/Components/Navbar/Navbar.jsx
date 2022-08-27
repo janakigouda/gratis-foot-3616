@@ -48,7 +48,7 @@ function Navigation() {
               <NavDropdown.Item href="#">Blog</NavDropdown.Item>
               <NavDropdown.Item href="#">SBI Offer</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/" className="me-2">Sign Up/Sign In</Nav.Link>
+            <Nav.Link href="/signup" className="me-2">Sign Up/Sign In</Nav.Link>
             <Nav.Link href="/" className="me-2"><i className="fa fa-heart-o"></i></Nav.Link>
             <Nav.Link href="/" className="me-2"><i className="fa fa-shopping-bag"></i></Nav.Link>
             </Nav>

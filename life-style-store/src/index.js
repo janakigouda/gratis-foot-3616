@@ -4,19 +4,22 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from "react-router-dom";
-import { Tempcontextprovider } from './context/Tempcontext';
+import { AuthContextprovider } from './context/Tempcontext';
 import {Provider} from 'react-redux'
-import store  from "./Components/Redux/store"
+import store  from "./Components/Redux/store";
+import { ChakraProvider } from "@chakra-ui/react";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-    <Tempcontextprovider>
+    <AuthContextprovider>
     <BrowserRouter>
+    <ChakraProvider>
       <App />
+    </ChakraProvider>
     </BrowserRouter>
-    </Tempcontextprovider>
+    </AuthContextprovider>
   </Provider>
   </React.StrictMode>
 );
