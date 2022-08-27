@@ -71,3 +71,16 @@ a {
 	margin-top: 1%;
 	position: static;
 }
+
+.form-ls{
+	margin-top: 10px;
+}
+.login-btn{
+	width: 100%;
+}
+.login-form>div{
+	margin: 5px 0px;
+}
+.link:hover{
+	color: orange;
+}
