@@ -1,0 +1,107 @@
+.slider_two{
+    width: 99%;
+    height: 398px;
+    background: rgb(224,225,223);
+}
+
+.slider_head{
+    margin: 4% 0 0 2%;
+}
+
+#main_slider_container2{
+    width: 97%;
+    margin: auto;
+    position: relative;
+       overflow-x: hidden;
+       align-items: center; 
+    
+    }
+    
+    #slider2{
+        width: 100%;
+        scrollbar-width: none;
+        display: flex;
+        height: 100%;
+       /* white-space: nowrap; */
+       overflow-x: scroll;
+      scroll-behavior: smooth;
+      /* margin-bottom: 5%; */
+    }
+    
+    #slider2::-webkit-scrollbar{
+        display: none;
+    }
+    
+    .slider-card-image2{
+        width: 100%;
+        /* border-top-left-radius:10px ;
+        border-top-right-radius:10px ; */
+        
+    }
+    
+    .slider-icon2.left2, .slider-icon2.right2{
+        position: absolute;
+        background: whitesmoke;
+        border-radius: 100%;
+        left: 0;
+        opacity: 0.5;
+        cursor: pointer;
+    }
+    
+    .slider-icon2.left2{
+        left: 0;
+        opacity: 0.5;
+        cursor: pointer;
+    }
+    
+    .slider-icon2.right2{
+        margin-left:95%;
+       
+    }
+    
+    #main_slider_container2{
+        position: relative;
+        display: flex;
+        align-items: center;
+ 
+      
+    
+    }
+    
+     .slider_icon2.left2:hover, .slider_icon2.right2:hover{
+        opacity: 1;
+        cursor: pointer;
+        background: rebeccapurple;
+    
+    } 
+    
+    .slider_card2{
+        width: 341px;
+        border-radius: 10px;
+        display: inline-block;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-right:10px;
+    }
+    
+    .slider_image2{
+        width: 20px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    }
+    .slider_image2:hover{
+        transition: .8s;
+       transform: rotateY(360deg);
+    }
+    
+    .slider_img_box2{
+        width: 75%;
+    
+    }
+    
+    .hurt2{
+        position: absolute;
+         margin-top: 1%;
+         color: white;
+    }

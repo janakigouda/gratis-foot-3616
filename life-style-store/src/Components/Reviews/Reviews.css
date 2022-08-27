@@ -1,0 +1,59 @@
+.reviews{
+    width: 100%;
+    height: 325px;
+    background: rgb(224,225,223);
+    margin-top: 5%;
+}
+
+.reviews_icon{
+    display: flex;
+    margin: auto;
+    height: 100px;
+    width: 60%;
+   justify-content: space-around;
+   margin-top: 100px;
+}
+
+.orangebtn{
+    border: 1px solid orange;
+    width: 298px;
+    height: 56px;
+    color: orange;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 3px;
+     
+}
+
+.orangebtn:hover{
+    background: orange;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+
+.HEAD_review{
+    font-size:xx-large;
+    margin: 10px 0 0 3%;
+    
+}
+
+.head2{
+    font-size: larger;
+    width: 100%;
+    font-style: italic;
+
+
+    
+}
+
+.head3{
+    font-size: larger;
+    margin-left: 13%;
+    font-style: italic;
+
+}
+
+
+.fa-comment {
+    margin-top: 3%;
+}

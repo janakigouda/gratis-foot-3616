@@ -1,0 +1,46 @@
+body {
+  font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+}
+.box-shadow {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.main {
+  width: 98%;
+  /* margin: auto; */
+  padding: 20px;
+}
+.btn {
+  border: 1px solid #faa619;
+  color: #faa619;
+  background: white;
+  padding: 10px;
+  margin: 20px;
+}
+.orange {
+  color: #faa619;
+}
+.wt {
+  font-weight: 550;
+}
+.mt-15 {
+  margin-top: 20px;
+}
+.mt-25 {
+  margin-top: 30px;
+}
+.font-18 {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 26px;
+}
+.font-14 {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+}
+.mb-10 {
+  margin-bottom: -10px;
+}

@@ -1,0 +1,258 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+}
+.font-family {
+  font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+}
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.main-div {
+  /* border: 2px solid black; */
+  width: 80%;
+  margin: auto;
+  margin-top: 3%;
+}
+.text {
+  text-align: start;
+}
+.text-h1 {
+  font-weight: 300;
+  font-size: 24px;
+  font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+}
+.text-p {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-right: 4.8px;
+}
+.cart-div {
+  width: 100%;
+  display: flex;
+  /* border: 2px solid teal; */
+}
+.flex-div {
+  /* border: 1px solid violet; */
+  width: 64%;
+}
+.cart-item {
+  /* border: 2px solid yellowgreen; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.cart-total {
+  width: 34%;
+  margin-left: 2%;
+}
+.c-itm {
+  display: flex;
+}
+.img-div {
+  width: 100px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid yellow; */
+}
+.img-div img {
+  width: 80px;
+  height: 120px;
+}
+.card-details {
+  border:1px solid transparent
+}
+.color-orange {
+  color: #faa619;
+}
+.color {
+  width: 90%;
+  display: flex;
+  margin: -10px 0 -10px 0;
+  text-align: start;
+  font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI ";
+}
+.color-title {
+  width: 25%;
+  margin: 1px 0 10px 0;
+  font-size: 12px;
+  color: grey;
+  font-weight: 100;
+}
+.color-name {
+  margin: -7px 0 -5px 0;
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(66, 66, 66);
+}
+.ruppe-sign {
+  text-align: start;
+  margin: -10px 0 10px 0;
+}
+.qty-div {
+  margin-left: 2%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.calender {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0%;
+  font-weight: 400;
+  font-size: 14px;
+}
+.calender span {
+  font-weight: 10;
+}
+.button-div {
+  width: 97%;
+  margin: auto;
+  border-top: 1px solid grey;
+  display: flex;
+  align-items: center;
+}
+.button-div > div {
+  width: 50%;
+  padding-bottom: 0%;
+  margin-bottom: -15px;
+  text-align: center;
+}
+.button-div > div > p {
+  color: #faa619;
+  width: auto;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.flex {
+  display: flex;
+  /* border:1px solid green; */
+}
+.flex-itm {
+  text-align: center;
+}
+.float-r {
+  float: right;
+}
+.float-t {
+  margin-top: 2px;
+}
+.float-l {
+  float: left;
+}
+.textalign-r {
+  color: blue;
+  text-align: right;
+}
+.margin-l5 {
+  margin-left: 25px;
+}
+.mt-15 {
+  margin-top: 10px;
+}
+.mb-15 {
+  margin-bottom: 10px;
+  /* border:1px solid red; */
+}
+.mtop {
+  margin-top: -15px;
+  /* border:1px solid red */
+}
+
+.hr {
+  margin: 15px 0 15px 0;
+}
+.space-between {
+  justify-content: space-between;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.wt-400 {
+  font-weight: 400;
+}
+.wt-600 {
+  font-weight: 600;
+}
+.offers {
+  margin: 5px 0 0 0px;
+}
+.offer-padding {
+  padding: 10px;
+}
+.text-start {
+  text-align: justify;
+}
+.checkout-div {
+  border: 1px solid transparent;
+}
+.mt-0 {
+  margin: -15px 0px -20px 0px;
+}
+.checkout-p {
+  font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 20px;
+  color: grey;
+  /* line-height: 1.42em; */
+  letter-spacing: 0em;
+}
+.checkout-btn { 
+  cursor: pointer;
+  width: 92%;
+  padding: 10px;
+  margin: 30px 0px 0px 10px;
+  color: white;
+  background: #faa619;
+  /* display: flex; */
+  margin: auto;
+}
+.grey {
+  color: grey;
+}
+.counter {
+  background: #000;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  margin-top: 15px;
+  padding: 0;
+}
+.additem {
+  margin-top: 18px;
+  font-weight: 600;
+  font-size: medium;
+}
+.mr-10{
+  margin-right: 10px;
+}

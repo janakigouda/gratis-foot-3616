@@ -132,7 +132,7 @@ export const Footer = () => {
           <div className="flex-70 flex justify-bet ">
             <div className=" contact flex">
               <div>
-                <i class="fa fa-phone"></i>
+                <i className="fa fa-phone"></i>
               </div>
               <div className="text-justify">
                 <div className="p-color">Talk to us</div>
@@ -141,7 +141,7 @@ export const Footer = () => {
             </div>
             <div className="contact flex">
               <div>
-                <i class="fa fa-question-circle"></i>
+                <i className="fa fa-question-circle"></i>
               </div>
               <div className="text-justify">
                 <div className="p-color">Helpcenter</div>
@@ -150,7 +150,7 @@ export const Footer = () => {
             </div>
             <div className="contact flex">
               <div>
-                <i class="fa fa-envelope-o"></i>
+                <i className="fa fa-envelope-o"></i>
               </div>
               <div className="text-justify">
                 <div className="p-color">Write to us</div>
@@ -160,13 +160,13 @@ export const Footer = () => {
           </div>
           <div className="flex-30 flex flex-flow">
             <div className="border contact-i border-none">
-              <i class="fa fa-instagram"></i>
+              <i className="fa fa-instagram"></i>
             </div>
             <div className="border contact-i border-none">
-              <i class="fa fa-twitter"></i>
+              <i className="fa fa-twitter"></i>
             </div>
             <div className="border contact-i border-none">
-              <i class="fa fa-facebook-f"></i>
+              <i className="fa fa-facebook-f"></i>
             </div>
           </div>
         </div>

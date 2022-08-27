@@ -1,0 +1,264 @@
+body{
+     font-family: 'Poppins', sans-serif;
+}
+
+.size{
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+     margin: 3% 0 4% 0;
+    
+  
+}
+
+.s1{
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    border: 2px solid gray;
+}
+.rs{
+    font-weight: bold;
+    font-size:x-large; 
+    color: red;
+}
+
+.tax{
+    color: gray;
+    margin-left: 1%;
+    font-size: 13px;
+}
+
+.orange{
+    color: orange;
+    text-decoration: underline;
+}
+
+.logo{
+    margin-left: 25%;
+}
+
+.proimg{
+    cursor: pointer;
+    width: 56px;
+    height: 58px;
+    border: 2px solid orange;
+    transition: all 0.5s ease;
+}
+.proimg:hover{
+    transform: scale(1.1);
+}
+
+.guide{
+    margin-left: 70%;
+}
+
+.basket{
+    width:100%;
+    height: 52px;
+    background-color: rgb(250,166,25);
+    color: whitesmoke;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+    font-weight:bolder;
+}
+
+.fa-heart{
+     outline: black;
+     margin-right: 2%;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    /* color: red; */
+}
+
+.fa-heart:hover{
+    color: rgb(237, 43, 9);
+    transform: scale(1.4);
+}
+.promotion{
+    margin: 0.5% 0 4% 0;
+    color: rgb(227,79,76);
+    border-radius: 2px;
+    background-color: rgb(242,232,232);
+    border: none;
+    width: 40%;
+    height: 30px;
+
+}
+
+.pincode{
+    width: 70%;
+    margin-top: 3%;
+    height: 48px;
+    color: gray;
+    padding-left: 4%;
+    border: 1px solid rgb(202, 202, 202);
+        
+}
+
+.check{
+    border: none;
+    height: 48px;
+    margin-top: 3%;
+    width:64px;
+    cursor: pointer;
+    background-color: rgb(250,166,25);
+    color: whitesmoke;
+
+}
+
+.red{
+    color: red;
+}
+
+.price{
+     font-size: 23px;
+    font-weight: bold;
+    border: 0px solid green;
+}
+
+.gray{
+    color: gray;
+}
+
+.strike{
+    text-decoration: line-through;
+    font-size: 12px;
+    margin-top: 1%;
+
+}
+
+.saving{
+    font-size: 14px;
+}
+
+.free_shiping{
+    font-size: 14px;
+}
+
+.earning_point{
+    font-size: 14px;
+}
+
+.img_demo{
+    margin-top: 3%;
+    font-size: 15px;
+}
+
+.size_section{
+    margin-top: 5%;
+    color: gray;
+}
+
+.heart_logo{
+    margin: 5% 0 5% 0;
+    padding-bottom: 7%;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.black{
+    color: black;
+}
+
+.gray_bar{
+    color: rgb(255, 255, 255);
+}
+
+.product_deal{
+    font-size:14px;
+    color: rgb(66, 66, 66);
+
+}
+
+.product_promotion{
+    border-bottom: 1px solid rgb(236, 236, 236);
+   height: 150px;
+}
+
+.delivery_icons{
+   margin-top: 5%;
+   border-bottom: 1px solid rgb(240, 240, 240);
+   height: 300px;
+}
+
+.order_details{
+  font-size: 14px;
+  color: gray;
+}
+
+.icons{
+    margin: 5px 2px 0 0;
+}
+
+.icons_head{
+    color: black;
+    border: 0px solid green;
+    
+}
+
+.details_overview{
+    margin: 2%;
+    margin-top: 100px;
+}
+
+.overview , .overview_list{
+     font-size: 14px;
+     text-shadow: 4px 4px 4px #aaa;
+     margin-top: 10px;
+}
+
+.overview_list{
+ border-bottom: 1px solid rgb(232, 230, 230);
+ height: 400px;
+ margin-top: 5px;
+}
+
+.social_icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.fa-facebook{
+    color: rgb(33, 33, 255);
+}
+
+.fa-twitter{
+    color: skyblue;
+}
+
+.fa-pinterest-p{
+    color: palevioletred;
+}
+
+
+.socil_text{
+    font-size: 13px;
+    margin-left: 5px;
+    color: gray;
+}
+
+.s2{
+    border:none;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.like{
+    border: none;
+    background-color: whitesmoke;
+}
+
+.line{
+    text-decoration:line-through;
+}
+
+.grey{
+    color: rgb(163, 163, 163);
+   
+}
+
+.sizebox{
+    border: 2px solid lightgrey;
+}

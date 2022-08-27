@@ -1,0 +1,40 @@
+
+.top {
+    background-color: black;
+    color: white;
+    height: 45px;
+    display: flex;
+    padding:5px 10% 0px 10%;
+}
+
+.top-nav {
+    width: 50%;
+    display: flex;
+    align-content: center;
+    padding-left: 0%;
+}
+.top-nav li {
+    list-style: none;
+    align-content: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+    font-size: 14px;
+}
+
+.top-nav-2 {
+    width: 50%;
+    display: flex;
+    padding-left: 20%;
+}
+.top-nav-2 li {
+    list-style: none;
+    align-content: center;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+.line {
+    border-left: 1px solid white;
+    width: 0.0px;
+    height: 20px;
+    margin-top: 5px;
+}

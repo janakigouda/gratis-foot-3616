@@ -1,0 +1,129 @@
+#flex {
+	display: flex;
+	margin: 2% 5%;
+}
+
+input {
+	margin: 0px;
+	padding: 0px;
+}
+
+#div1 {
+	flex-basis: 50%;
+}
+
+.labels {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.inputs {
+	width: 70%;
+	height: 30px;
+	border: 0.1px solid rgb(204, 204, 204);
+	margin: 10px 0px;
+	padding: 2px 10px;
+}
+
+.input {
+	margin: 10px 0px;
+}
+
+.ll {
+	margin-left: 5px;
+	font-size: 14px;
+}
+
+#add {
+	margin-left: 150px;
+}
+
+select {
+	width: 73.5%;
+	border-color: rgb(204, 204, 204);
+	height: 35px;
+	margin: 10px 0px;
+	padding: 2px 10px;
+}
+
+h4 {
+	font-size: 20px;
+	color: rgb(67, 67, 67);
+}
+
+#pay {
+	margin-top: 50px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+#ss {
+	font-weight: bold;
+	margin-left: 5px;
+	font-size: 18px;
+}
+
+#paytm {
+	cursor: pointer;
+	margin: 20px 20px;
+}
+
+#flex1 {
+	display: flex;
+}
+
+#created {
+	width: 200px;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+#span {
+	margin-left: 28px;
+	color: gray;
+}
+
+#div2 {
+	margin-top: -20px;
+}
+
+/* pay button final */
+#go {
+	display: flex;
+}
+
+#special {
+	font-size: 12px;
+	color: grey;
+	margin: 15px 0px;
+}
+
+#yellow {
+	background-color: rgb(255, 157, 0);
+	font-weight: bold;
+	font-size: 16px;
+	color: white;
+	border: none;
+	padding: 0px 50px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.images {
+	margin-right: 40px;
+}
+
+.images1 {
+	margin-right: 45px;
+	margin-top: 20px;
+}
+
+#up {
+	margin-top: -20px;
+	margin-bottom: 20px;
+}
+
+#ways {
+	margin: 20px 0px;
+}
