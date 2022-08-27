@@ -1,0 +1,15 @@
+#navbar{
+    padding: 0px 10%;
+}
+
+.nav-link{
+    color: black!important;
+}
+
+.nav-link:hover{
+    color: orange!important;
+    background-color: white!important;
+}
+.form-control{
+    width: 300px!important;
+}

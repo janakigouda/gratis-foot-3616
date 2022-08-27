@@ -1,0 +1,86 @@
+.filter{
+  display: grid;
+  grid-template-columns: 185px 185px 185px 185px 185px 185px;
+  grid-template-rows: 40px 40px;
+  grid-gap: 10px;
+  margin-top: 30px;
+  margin-left: 6%;
+}
+
+.icon{
+  display: flex;
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+
+
+
+#cars{
+  width:100%;
+}
+#datashow{
+  display:grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  grid-gap: 20px;
+  margin:20px  0 0 15px ;
+}
+
+.icon1{
+  display: flex;
+  
+}
+#lengthpro{
+  display: flex;
+  margin-left: 30px;
+  font-size:25px;
+  justify-content: space-between;
+}
+
+
+.offer{
+  width:80px;
+  height: 40px;
+ 
+  text-align: center;
+  margin-left:206px;
+  margin-top: -40px;
+background:white !important;
+}
+.offerbox{
+  display: flex;
+}
+.pricecut{
+  color: grey;
+  text-decoration:line-through;
+  margin-top: 5px;
+}
+.sortby{
+  margin-top:7px;
+margin-right: 40px;
+}
+#cars1{
+  margin-right: 19px;
+  width:185px;
+  height: 40px;
+}
+
+.hover-switch > img:last-of-type {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+}
+
+.hover-switch:hover > img:last-of-type {
+  opacity: 0;
+}
+
+
+.hover-switch > img {
+  position: absolute;
+  height:350px;
+  width:24%
+
+  /* border: 1px solid rgb(161, 26, 26); */
+}
